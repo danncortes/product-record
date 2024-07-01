@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "chain_id": 1,
+      "address": "Pilatusstrasse 2, 6003 Luzern"
+    },
+    {
+      "id": 2,
+      "chain_id": 1,
+      "address": "Zähringerstrasse 29, 6003 Luzern"
+    },
+    {
+      "id": 3,
+      "chain_id": 1,
+      "address": "Zentralstrasse 7, 6003 Luzern"
+    },
+    {
+      "id": 4,
+      "chain_id": 2,
+      "address": "Hirschengraben 33, 6003 Luzern"
+    },
+    {
+      "id": 5,
+      "chain_id": 2,
+      "address": "Winkelriedstrasse 47, 6003 Luzern"
+    },
+    {
+      "id": 6,
+      "chain_id": 2,
+      "address": "Bruchstrasse 17, 6003 Luzern"
+    },
+    {
+      "id": 7,
+      "chain_id": 3,
+      "address": "Würzenbachstrasse 21, 6006 Luzern"
+    },
+    {
+      "id": 8,
+      "chain_id": 3,
+      "address": "Winkelriedstrasse 30, 6006 Luzern"
+    },
+    {
+      "id": 9,
+      "chain_id": 3,
+      "address": "Murbacherstrasse 19, 6006 Luzern"
+    },
+    {
+      "id": 10,
+      "chain_id": 4,
+      "address": "Löwenstrasse 3, 6004 Luzern"
+    },
+    {
+      "id": 11,
+      "chain_id": 4,
+      "address": "Neustadtstrasse 2, 6004 Luzern"
+    },
+    {
+      "id": 12,
+      "chain_id": 4,
+      "address": "Baselstrasse 19, 6003 Luzern"
+    },
+    {
+      "id": 13,
+      "chain_id": 5,
+      "address": "Bundesstrasse 20, 6003 Luzern"
+    },
+    {
+      "id": 14,
+      "chain_id": 5,
+      "address": "Haldenstrasse 14, 6006 Luzern"
+    },
+    {
+      "id": 15,
+      "chain_id": 5,
+      "address": "St. Karli-Strasse 14, 6005 Luzern"
+    },
+    {
+      "id": 16,
+      "chain_id": 6,
+      "address": "Luzernerstrasse 81, 6010 Kriens"
+    },
+    {
+      "id": 17,
+      "chain_id": 6,
+      "address": "Friedentalstrasse 4, 6004 Luzern"
+    },
+    {
+      "id": 18,
+      "chain_id": 6,
+      "address": "Winkelriedstrasse 48, 6003 Luzern"
+    },
+    {
+      "id": 19,
+      "chain_id": 7,
+      "address": "Obergrundstrasse 46, 6003 Luzern"
+    },
+    {
+      "id": 20,
+      "chain_id": 7,
+      "address": "Zürichstrasse 30, 6004 Luzern"
+    },
+    {
+      "id": 21,
+      "chain_id": 7,
+      "address": "Hirtenhofstrasse 9, 6005 Luzern"
+    }
+  ]

@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "Coop" },
+    { "id": 2, "name": "Migros" },
+    { "id": 3, "name": "Denner" },
+    { "id": 4, "name": "Volg" },
+    { "id": 5, "name": "SPAR" },
+    { "id": 6, "name": "ALDI Suisse" },
+    { "id": 7, "name": "Lidl" }
+  ]

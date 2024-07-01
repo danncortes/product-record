@@ -1,0 +1,570 @@
+[
+  {
+    "id": 1,
+    "product_id": 123,
+    "chain_id": 1,
+    "price": 234,
+    "date": "2024-06-27",
+    "store": 123
+  },
+  {
+    "id": 1,
+    "product_id": 1,
+    "price": 2.59,
+    "date": "2024-06-27",
+    "store": 1
+  },
+  {
+    "id": 2,
+    "product_id": 1,
+    "price": 2.49,
+    "date": "2024-06-27",
+    "store": 4
+  },
+  {
+    "id": 3,
+    "product_id": 1,
+    "price": 2.65,
+    "date": "2024-06-27",
+    "store": 7
+  },
+  {
+    "id": 4,
+    "product_id": 2,
+    "price": 3.99,
+    "date": "2024-06-27",
+    "store": 2
+  },
+  {
+    "id": 5,
+    "product_id": 2,
+    "price": 3.89,
+    "date": "2024-06-27",
+    "store": 5
+  },
+  {
+    "id": 6,
+    "product_id": 2,
+    "price": 4.05,
+    "date": "2024-06-27",
+    "store": 8
+  },
+  {
+    "id": 7,
+    "product_id": 3,
+    "price": 1.29,
+    "date": "2024-06-27",
+    "store": 3
+  },
+  {
+    "id": 8,
+    "product_id": 3,
+    "price": 1.19,
+    "date": "2024-06-27",
+    "store": 6
+  },
+  {
+    "id": 9,
+    "product_id": 3,
+    "price": 1.35,
+    "date": "2024-06-27",
+    "store": 9
+  },
+  {
+    "id": 10,
+    "product_id": 4,
+    "price": 5.49,
+    "date": "2024-06-27",
+    "store": 1
+  },
+  {
+    "id": 11,
+    "product_id": 4,
+    "price": 5.39,
+    "date": "2024-06-27",
+    "store": 4
+  },
+  {
+    "id": 12,
+    "product_id": 4,
+    "price": 5.55,
+    "date": "2024-06-27",
+    "store": 7
+  },
+  {
+    "id": 13,
+    "product_id": 5,
+    "price": 2.99,
+    "date": "2024-06-27",
+    "store": 2
+  },
+  {
+    "id": 14,
+    "product_id": 5,
+    "price": 2.89,
+    "date": "2024-06-27",
+    "store": 5
+  },
+  {
+    "id": 15,
+    "product_id": 5,
+    "price": 3.05,
+    "date": "2024-06-27",
+    "store": 8
+  },
+  {
+    "id": 16,
+    "product_id": 6,
+    "price": 1.79,
+    "date": "2024-06-27",
+    "store": 3
+  },
+  {
+    "id": 17,
+    "product_id": 6,
+    "price": 1.69,
+    "date": "2024-06-27",
+    "store": 6
+  },
+  {
+    "id": 18,
+    "product_id": 6,
+    "price": 1.85,
+    "date": "2024-06-27",
+    "store": 9
+  },
+  {
+    "id": 19,
+    "product_id": 7,
+    "price": 3.49,
+    "date": "2024-06-27",
+    "store": 1
+  },
+  {
+    "id": 20,
+    "product_id": 7,
+    "price": 3.39,
+    "date": "2024-06-27",
+    "store": 4
+  },
+  {
+    "id": 21,
+    "product_id": 7,
+    "price": 3.55,
+    "date": "2024-06-27",
+    "store": 7
+  },
+  {
+    "id": 22,
+    "product_id": 8,
+    "price": 1.99,
+    "date": "2024-06-27",
+    "store": 2
+  },
+  {
+    "id": 23,
+    "product_id": 8,
+    "price": 1.89,
+    "date": "2024-06-27",
+    "store": 5
+  },
+  {
+    "id": 24,
+    "product_id": 8,
+    "price": 2.05,
+    "date": "2024-06-27",
+    "store": 8
+  },
+  {
+    "id": 25,
+    "product_id": 9,
+    "price": 2.79,
+    "date": "2024-06-27",
+    "store": 3
+  },
+  {
+    "id": 26,
+    "product_id": 9,
+    "price": 2.69,
+    "date": "2024-06-27",
+    "store": 6
+  },
+  {
+    "id": 27,
+    "product_id": 9,
+    "price": 2.85,
+    "date": "2024-06-27",
+    "store": 9
+  },
+  {
+    "id": 28,
+    "product_id": 10,
+    "price": 4.99,
+    "date": "2024-06-27",
+    "store": 1
+  },
+  {
+    "id": 29,
+    "product_id": 10,
+    "price": 4.89,
+    "date": "2024-06-27",
+    "store": 4
+  },
+  {
+    "id": 30,
+    "product_id": 10,
+    "price": 5.05,
+    "date": "2024-06-27",
+    "store": 7
+  },
+  {
+    "id": 31,
+    "product_id": 11,
+    "price": 1.59,
+    "date": "2024-06-27",
+    "store": 2
+  },
+  {
+    "id": 32,
+    "product_id": 11,
+    "price": 1.49,
+    "date": "2024-06-27",
+    "store": 5
+  },
+  {
+    "id": 33,
+    "product_id": 11,
+    "price": 1.65,
+    "date": "2024-06-27",
+    "store": 8
+  },
+  {
+    "id": 34,
+    "product_id": 12,
+    "price": 3.29,
+    "date": "2024-06-27",
+    "store": 3
+  },
+  {
+    "id": 35,
+    "product_id": 12,
+    "price": 3.19,
+    "date": "2024-06-27",
+    "store": 6
+  },
+  {
+    "id": 36,
+    "product_id": 12,
+    "price": 3.35,
+    "date": "2024-06-27",
+    "store": 9
+  },
+  {
+    "id": 37,
+    "product_id": 13,
+    "price": 2.49,
+    "date": "2024-06-27",
+    "store": 1
+  },
+  {
+    "id": 38,
+    "product_id": 13,
+    "price": 2.39,
+    "date": "2024-06-27",
+    "store": 4
+  },
+  {
+    "id": 39,
+    "product_id": 13,
+    "price": 2.55,
+    "date": "2024-06-27",
+    "store": 7
+  },
+  {
+    "id": 40,
+    "product_id": 14,
+    "price": 0.99,
+    "date": "2024-06-27",
+    "store": 2
+  },
+  {
+    "id": 41,
+    "product_id": 14,
+    "price": 0.89,
+    "date": "2024-06-27",
+    "store": 5
+  },
+  {
+    "id": 42,
+    "product_id": 14,
+    "price": 1.05,
+    "date": "2024-06-27",
+    "store": 8
+  },
+  {
+    "id": 43,
+    "product_id": 15,
+    "price": 2.19,
+    "date": "2024-06-27",
+    "store": 3
+  },
+  {
+    "id": 44,
+    "product_id": 16,
+    "price": 4.49,
+    "date": "2024-05-18",
+    "store": 1
+  },
+  {
+    "id": 45,
+    "product_id": 16,
+    "price": 4.39,
+    "date": "2024-05-22",
+    "store": 4
+  },
+  {
+    "id": 46,
+    "product_id": 16,
+    "price": 4.55,
+    "date": "2024-05-30",
+    "store": 7
+  },
+  {
+    "id": 47,
+    "product_id": 17,
+    "price": 1.79,
+    "date": "2024-05-20",
+    "store": 2
+  },
+  {
+    "id": 48,
+    "product_id": 17,
+    "price": 1.69,
+    "date": "2024-05-19",
+    "store": 5
+  },
+  {
+    "id": 49,
+    "product_id": 17,
+    "price": 1.85,
+    "date": "2024-05-25",
+    "store": 8
+  },
+  {
+    "id": 50,
+    "product_id": 18,
+    "price": 3.99,
+    "date": "2024-05-21",
+    "store": 3
+  },
+  {
+    "id": 51,
+    "product_id": 18,
+    "price": 3.89,
+    "date": "2024-05-24",
+    "store": 6
+  },
+  {
+    "id": 52,
+    "product_id": 18,
+    "price": 4.05,
+    "date": "2024-05-26",
+    "store": 9
+  },
+  {
+    "id": 53,
+    "product_id": 19,
+    "price": 2.29,
+    "date": "2024-05-27",
+    "store": 1
+  },
+  {
+    "id": 54,
+    "product_id": 19,
+    "price": 2.19,
+    "date": "2024-05-29",
+    "store": 4
+  },
+  {
+    "id": 55,
+    "product_id": 19,
+    "price": 2.35,
+    "date": "2024-05-28",
+    "store": 7
+  },
+  {
+    "id": 56,
+    "product_id": 20,
+    "price": 6.49,
+    "date": "2024-05-23",
+    "store": 2
+  },
+  {
+    "id": 57,
+    "product_id": 20,
+    "price": 6.39,
+    "date": "2024-05-17",
+    "store": 5
+  },
+  {
+    "id": 58,
+    "product_id": 20,
+    "price": 6.55,
+    "date": "2024-05-16",
+    "store": 8
+  },
+  {
+    "id": 59,
+    "product_id": 21,
+    "price": 1.49,
+    "date": "2024-05-31",
+    "store": 3
+  },
+  {
+    "id": 60,
+    "product_id": 21,
+    "price": 1.39,
+    "date": "2024-05-20",
+    "store": 6
+  },
+  {
+    "id": 61,
+    "product_id": 21,
+    "price": 1.55,
+    "date": "2024-05-18",
+    "store": 9
+  },
+  {
+    "id": 62,
+    "product_id": 22,
+    "price": 3.79,
+    "date": "2024-05-22",
+    "store": 1
+  },
+  {
+    "id": 63,
+    "product_id": 22,
+    "price": 3.69,
+    "date": "2024-05-25",
+    "store": 4
+  },
+  {
+    "id": 64,
+    "product_id": 22,
+    "price": 3.85,
+    "date": "2024-05-26",
+    "store": 7
+  },
+  {
+    "id": 65,
+    "product_id": 23,
+    "price": 2.99,
+    "date": "2024-05-27",
+    "store": 2
+  },
+  {
+    "id": 66,
+    "product_id": 23,
+    "price": 2.89,
+    "date": "2024-05-28",
+    "store": 5
+  },
+  {
+    "id": 67,
+    "product_id": 23,
+    "price": 3.05,
+    "date": "2024-05-29",
+    "store": 8
+  },
+  {
+    "id": 68,
+    "product_id": 24,
+    "price": 1.69,
+    "date": "2024-05-19",
+    "store": 3
+  },
+  {
+    "id": 69,
+    "product_id": 24,
+    "price": 1.59,
+    "date": "2024-05-18",
+    "store": 6
+  },
+  {
+    "id": 70,
+    "product_id": 24,
+    "price": 1.75,
+    "date": "2024-05-30",
+    "store": 9
+  },
+  {
+    "id": 71,
+    "product_id": 25,
+    "price": 4.29,
+    "date": "2024-05-31",
+    "store": 1
+  },
+  {
+    "id": 72,
+    "product_id": 25,
+    "price": 4.19,
+    "date": "2024-05-17",
+    "store": 4
+  },
+  {
+    "id": 73,
+    "product_id": 25,
+    "price": 4.35,
+    "date": "2024-05-16",
+    "store": 7
+  },
+  {
+    "id": 74,
+    "product_id": 26,
+    "price": 2.59,
+    "date": "2024-05-23",
+    "store": 2
+  },
+  {
+    "id": 75,
+    "product_id": 26,
+    "price": 2.49,
+    "date": "2024-05-24",
+    "store": 5
+  },
+  {
+    "id": 76,
+    "product_id": 26,
+    "price": 2.65,
+    "date": "2024-05-26",
+    "store": 8
+  },
+  {
+    "id": 77,
+    "product_id": 27,
+    "price": 3.99,
+    "date": "2024-05-21",
+    "store": 3
+  },
+  {
+    "id": 78,
+    "product_id": 27,
+    "price": 3.89,
+    "date": "2024-05-23",
+    "store": 6
+  },
+  {
+    "id": 79,
+    "product_id": 27,
+    "price": 4.05,
+    "date": "2024-05-25",
+    "store": 9
+  },
+  {
+    "id": 80,
+    "product_id": 28,
+    "price": 2.29,
+    "date": "2024-05-19",
+    "store": 1
+  }
+]

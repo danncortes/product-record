@@ -1,0 +1,542 @@
+[
+    {
+      "id": 1,
+      "group_id": 1,
+      "name": "Milk Mountain",
+      "description": "Rich and creamy milk from the mountains.",
+      "measure": "l",
+      "pkg": false,
+      "brand": "MountainDairy",
+      "code": "1234567890001"
+    },
+    {
+      "id": 2,
+      "group_id": 1,
+      "name": "Milk Fresh",
+      "description": "Fresh milk with a pure taste.",
+      "measure": "l",
+      "pkg": false,
+      "brand": "FreshMilkCo",
+      "code": "1234567890002"
+    },
+    {
+      "id": 3,
+      "group_id": 1,
+      "name": "Milk Organic",
+      "description": "Organic milk for a healthy lifestyle.",
+      "measure": "l",
+      "pkg": false,
+      "brand": "OrganicFarms",
+      "code": "1234567890003"
+    },
+    {
+      "id": 4,
+      "group_id": 2,
+      "name": "Cheese Cheddar",
+      "description": "Sharp cheddar cheese with a rich flavor.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "CheddarMasters",
+      "code": "1234567890004"
+    },
+    {
+      "id": 5,
+      "group_id": 2,
+      "name": "Cheese Swiss",
+      "description": "Swiss cheese with its characteristic holes.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "SwissCheeseCo",
+      "code": "1234567890005"
+    },
+    {
+      "id": 6,
+      "group_id": 2,
+      "name": "Cheese Gouda",
+      "description": "Smooth and creamy Gouda cheese.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "GoudaDelights",
+      "code": "1234567890006"
+    },
+    {
+      "id": 7,
+      "group_id": 3,
+      "name": "Yogurt Greek",
+      "description": "Creamy Greek yogurt with a tangy flavor.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "GreekDairy",
+      "code": "1234567890007"
+    },
+    {
+      "id": 8,
+      "group_id": 3,
+      "name": "Yogurt Strawberry",
+      "description": "Delicious strawberry yogurt for a fruity taste.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "StrawberryYogurt",
+      "code": "1234567890008"
+    },
+    {
+      "id": 9,
+      "group_id": 3,
+      "name": "Yogurt Vanilla",
+      "description": "Smooth vanilla yogurt for a classic treat.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "VanillaDelights",
+      "code": "1234567890009"
+    },
+    {
+      "id": 10,
+      "group_id": 4,
+      "name": "Butter Salted",
+      "description": "Creamy salted butter for everyday use.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "SaltedButterCo",
+      "code": "1234567890010"
+    },
+    {
+      "id": 11,
+      "group_id": 4,
+      "name": "Butter Unsalted",
+      "description": "Smooth unsalted butter for baking.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "UnsaltedButter",
+      "code": "1234567890011"
+    },
+    {
+      "id": 12,
+      "group_id": 4,
+      "name": "Butter Organic",
+      "description": "Organic butter from pasture-raised cows.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "OrganicButterFarm",
+      "code": "1234567890012"
+    },
+    {
+      "id": 13,
+      "group_id": 5,
+      "name": "Apples Granny Smith",
+      "description": "Crisp Granny Smith apples for snacking.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "GrannySmithFarms",
+      "code": "1234567890013"
+    },
+    {
+      "id": 14,
+      "group_id": 5,
+      "name": "Apples Red Delicious",
+      "description": "Sweet and juicy Red Delicious apples.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "RedDeliciousOrchard",
+      "code": "1234567890014"
+    },
+    {
+      "id": 15,
+      "group_id": 5,
+      "name": "Apples Gala",
+      "description": "Gala apples with a balanced sweet-tart flavor.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "GalaAppleCo",
+      "code": "1234567890015"
+    },
+    {
+      "id": 16,
+      "group_id": 6,
+      "name": "Tomatoes Vine-Ripened",
+      "description": "Vine-ripened tomatoes with intense flavor.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "VineTomatoFarms",
+      "code": "1234567890016"
+    },
+    {
+      "id": 17,
+      "group_id": 6,
+      "name": "Tomatoes Cherry",
+      "description": "Sweet cherry tomatoes for salads.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "CherryTomatoCo",
+      "code": "1234567890017"
+    },
+    {
+      "id": 18,
+      "group_id": 6,
+      "name": "Tomatoes Plum",
+      "description": "Plum tomatoes ideal for sauces.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "PlumTomatoFarms",
+      "code": "1234567890018"
+    },
+    {
+      "id": 19,
+      "group_id": 7,
+      "name": "Carrots Baby",
+      "description": "Sweet and tender baby carrots.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "BabyCarrotFarm",
+      "code": "1234567890019"
+    },
+    {
+      "id": 20,
+      "group_id": 7,
+      "name": "Carrots Rainbow",
+      "description": "Colorful rainbow carrots for a vibrant dish.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "RainbowCarrots",
+      "code": "1234567890020"
+    },
+    {
+      "id": 21,
+      "group_id": 7,
+      "name": "Carrots Organic",
+      "description": "Organic carrots grown without pesticides.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "OrganicCarrotCo",
+      "code": "1234567890021"
+    },
+    {
+      "id": 22,
+      "group_id": 8,
+      "name": "Rice Basmati",
+      "description": "Fragrant basmati rice for flavorful meals.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "BasmatiRiceMills",
+      "code": "1234567890022"
+    },
+    {
+      "id": 23,
+      "group_id": 8,
+      "name": "Rice Jasmine",
+      "description": "Aromatic jasmine rice from Southeast Asia.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "JasmineRiceFarm",
+      "code": "1234567890023"
+    },
+    {
+      "id": 24,
+      "group_id": 8,
+      "name": "Rice Wild",
+      "description": "Nutty and chewy wild rice blend.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "WildRiceHarvest",
+      "code": "1234567890024"
+    },
+    {
+      "id": 25,
+      "group_id": 9,
+      "name": "Pasta Spaghetti",
+      "description": "Classic spaghetti for versatile pasta dishes.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "SpaghettiMasters",
+      "code": "1234567890025"
+    },
+    {
+      "id": 26,
+      "group_id": 9,
+      "name": "Pasta Penne",
+      "description": "Tube-shaped penne pasta for hearty meals.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "PennePastaCo",
+      "code": "1234567890026"
+    },
+    {
+      "id": 27,
+      "group_id": 9,
+      "name": "Pasta Fusilli",
+      "description": "Spiral-shaped fusilli pasta for creamy sauces.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "FusilliDelights",
+      "code": "1234567890027"
+    },
+    {
+      "id": 28,
+      "group_id": 10,
+      "name": "Eggs Large",
+      "description": "Large farm-fresh eggs for breakfast.",
+      "measure": "unit",
+      "pkg": false,
+      "brand": "FarmEggCo",
+      "code": "1234567890028"
+    },
+    {
+      "id": 29,
+      "group_id": 10,
+      "name": "Eggs Organic",
+      "description": "Organic eggs from free-range chickens.",
+      "measure": "unit",
+      "pkg": false,
+      "brand": "OrganicEggFarm",
+      "code": "1234567890029"
+    },
+    {
+      "id": 30,
+      "group_id": 10,
+      "name": "Eggs Brown",
+      "description": "Brown eggs with rich flavor.",
+      "measure": "unit",
+      "pkg": false,
+      "brand": "BrownEggDelights",
+      "code": "1234567890030"
+    },
+    {
+      "id": 31,
+      "group_id": 11,
+      "name": "Oil Olive",
+      "description": "Extra virgin olive oil for cooking and salads.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "OliveOilMasters",
+      "code": "1234567890031"
+    },
+    {
+      "id": 32,
+      "group_id": 11,
+      "name": "Oil Canola",
+      "description": "Healthy canola oil for frying and baking.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "CanolaOilFarm",
+      "code": "1234567890032"
+    },
+    {
+      "id": 33,
+      "group_id": 11,
+      "name": "Oil Coconut",
+      "description": "Nutty coconut oil for exotic dishes.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "CoconutOilDelights",
+      "code": "1234567890033"
+    },
+    {
+      "id": 34,
+      "group_id": 12,
+      "name": "Beer Lager",
+      "description": "Refreshing lager beer for any occasion.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "LagerBrewery",
+      "code": "1234567890034"
+    },
+    {
+      "id": 35,
+      "group_id": 12,
+      "name": "Beer Stout",
+      "description": "Dark and rich stout beer with coffee notes.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "StoutBrewers",
+      "code": "1234567890035"
+    },
+    {
+      "id": 36,
+      "group_id": 12,
+      "name": "Beer Pale Ale",
+      "description": "Hoppy pale ale with a balanced bitterness.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "PaleAleBrewery",
+      "code": "1234567890036"
+    },
+    {
+      "id": 37,
+      "group_id": 13,
+      "name": "Juice Orange",
+      "description": "Freshly squeezed orange juice for breakfast.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "OrangeJuiceCo",
+      "code": "1234567890037"
+    },
+    {
+      "id": 38,
+      "group_id": 13,
+      "name": "Juice Apple",
+      "description": "Crisp apple juice made from ripe apples.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "AppleJuiceMasters",
+      "code": "1234567890038"
+    },
+    {
+      "id": 39,
+      "group_id": 13,
+      "name": "Juice Pineapple",
+      "description": "Tropical pineapple juice with a tangy flavor.",
+      "measure": "ml",
+      "pkg": false,
+      "brand": "PineappleJuiceFarm",
+      "code": "1234567890039"
+    },
+    {
+      "id": 40,
+      "group_id": 14,
+      "name": "Sugar White",
+      "description": "Fine white sugar for baking and sweetening.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "WhiteSugarCo",
+      "code": "1234567890040"
+    },
+    {
+      "id": 41,
+      "group_id": 14,
+      "name": "Sugar Brown",
+      "description": "Natural brown sugar with a caramel flavor.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "BrownSugarDelights",
+      "code": "1234567890041"
+    },
+    {
+      "id": 42,
+      "group_id": 14,
+      "name": "Sugar Organic",
+      "description": "Certified organic sugar cane for eco-conscious consumers.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "OrganicSugarFarm",
+      "code": "1234567890042"
+    },
+    {
+      "id": 43,
+      "group_id": 15,
+      "name": "Flour All-Purpose",
+      "description": "Versatile all-purpose flour for baking.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "AllPurposeFlourCo",
+      "code": "1234567890043"
+    },
+    {
+      "id": 44,
+      "group_id": 15,
+      "name": "Flour Whole Wheat",
+      "description": "Nutritious whole wheat flour for wholesome breads.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "WholeWheatFlourFarm",
+      "code": "1234567890044"
+    },
+    {
+      "id": 45,
+      "group_id": 15,
+      "name": "Flour Gluten-Free",
+      "description": "Gluten-free flour blend for gluten-sensitive diets.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "GlutenFreeFlourCo",
+      "code": "1234567890045"
+    },
+    {
+      "id": 46,
+      "group_id": 16,
+      "name": "Coffee Arabica",
+      "description": "Smooth Arabica coffee beans for a rich brew.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "ArabicaCoffeeRoasters",
+      "code": "1234567890046"
+    },
+    {
+      "id": 47,
+      "group_id": 16,
+      "name": "Coffee Espresso",
+      "description": "Bold espresso coffee beans for a strong coffee.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "EspressoBeansCo",
+      "code": "1234567890047"
+    },
+    {
+      "id": 48,
+      "group_id": 16,
+      "name": "Coffee Decaf",
+      "description": "Decaffeinated coffee beans for a milder taste.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "DecafCoffeeRoasters",
+      "code": "1234567890048"
+    },
+    {
+      "id": 49,
+      "group_id": 17,
+      "name": "Tea Green",
+      "description": "Refreshing green tea leaves for a healthy drink.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "GreenTeaPlantation",
+      "code": "1234567890049"
+    },
+    {
+      "id": 50,
+      "group_id": 17,
+      "name": "Tea Black",
+      "description": "Bold black tea leaves for a robust flavor.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "BlackTeaHarvest",
+      "code": "1234567890050"
+    },
+    {
+      "id": 51,
+      "group_id": 17,
+      "name": "Tea Herbal",
+      "description": "Relaxing herbal tea blend for soothing evenings.",
+      "measure": "g",
+      "pkg": false,
+      "brand": "HerbalTeaDelights",
+      "code": "1234567890051"
+    },
+    {
+      "id": 52,
+      "group_id": 18,
+      "name": "Honey Wildflower",
+      "description": "Sweet wildflower honey for natural sweetness.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "WildflowerHoneyCo",
+      "code": "1234567890052"
+    },
+    {
+      "id": 53,
+      "group_id": 18,
+      "name": "Honey Clover",
+      "description": "Delicate clover honey with a mild flavor.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "CloverHoneyFarm",
+      "code": "1234567890053"
+    },
+    {
+      "id": 54,
+      "group_id": 18,
+      "name": "Honey Organic",
+      "description": "Certified organic honey from sustainable sources.",
+      "measure": "kg",
+      "pkg": false,
+      "brand": "OrganicHoneyHarvest",
+      "code": "1234567890054"
+    }
+  ]

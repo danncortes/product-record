@@ -1,0 +1,25 @@
+{
+    "dashboard": {
+        "records_per_product": 3,
+        "groups" : [
+            {
+                "group_id": 1,
+                "products": [1,2,3],
+                "grid": 3,
+                "style": "chart"
+            },
+            {
+                "group_id": 2,
+                "products": [1,2,3],
+                "grid": 2,
+                "style": "cards"
+            },
+            {
+                "group_id": 3,
+                "products": [1,2,3],
+                "grid": 1,
+                "style": "rows"
+            }
+        ]
+    }
+}

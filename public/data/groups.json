@@ -1,0 +1,20 @@
+[
+    { "id": 1, "name": "GROUP_MILK" },
+    { "id": 2, "name": "GROUP_CHEESE" },
+    { "id": 3, "name": "GROUP_YOGURT" },
+    { "id": 4, "name": "GROUP_BUTTER" },
+    { "id": 5, "name": "GROUP_APPLES" },
+    { "id": 6, "name": "GROUP_TOMATOES" },
+    { "id": 7, "name": "GROUP_CARROTS" },
+    { "id": 8, "name": "GROUP_RICE" },
+    { "id": 9, "name": "GROUP_PASTA" },
+    { "id": 10, "name": "GROUP_EGGS" },
+    { "id": 11, "name": "GROUP_OIL" },
+    { "id": 12, "name": "GROUP_BEER" },
+    { "id": 13, "name": "GROUP_JUICE" },
+    { "id": 14, "name": "GROUP_SUGAR" },
+    { "id": 15, "name": "GROUP_FLOUR" },
+    { "id": 16, "name": "GROUP_COFFEE" },
+    { "id": 17, "name": "GROUP_TEA" },
+    { "id": 18, "name": "GROUP_HONEY" }
+]
