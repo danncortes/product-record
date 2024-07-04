@@ -6,19 +6,19 @@
                 "group_id": 1,
                 "products": [1,2,3],
                 "grid": 3,
-                "style": "chart"
+                "displayType": "chart"
             },
             {
                 "group_id": 2,
-                "products": [1,2,3],
+                "products": [4,5,6],
                 "grid": 2,
-                "style": "cards"
+                "displayType": "cards"
             },
             {
                 "group_id": 3,
-                "products": [1,2,3],
+                "products": [7,8,9],
                 "grid": 1,
-                "style": "rows"
+                "displayType": "rows"
             }
         ]
     }

@@ -3,7 +3,11 @@
     @if (showContent()) {
         <div class="stats-grid">
             @for (group of dashboardGroups; track $index) {
-                <app-group-card [title]="groupService.groups()?.get(group.group_id)?.name"/>
+                <app-stats-card
+                    [title]="productGroups?.get(group.group_id)?.name || null"
+                    [productsId]="group.products"
+                    [displayType]="group.displayType"
+                />
             }
         </div>
     } @else {

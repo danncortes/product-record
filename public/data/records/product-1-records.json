@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "product_id": 1,
+    "price": 2.59,
+    "unitPrice": 2.59,
+    "priceDiff": 0.2,
+    "percentChange": 0.1,
+    "date": "2024-06-27",
+    "store": 1
+  },
+  {
+    "id": 2,
+    "product_id": 1,
+    "price": 2.49,
+    "unitPrice": 2.49,
+    "priceDiff": 0.4,
+    "percentChange": 0.2,
+    "date": "2024-06-27",
+    "store": 4
+  },
+  {
+    "id": 3,
+    "product_id": 1,
+    "price": 2.65,
+    "unitPrice": 2.65,
+    "priceDiff": 0.1,
+    "percentChange": 0.2,
+    "date": "2024-06-27",
+    "store": 7
+  }
+]

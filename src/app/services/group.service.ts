@@ -22,7 +22,7 @@ export class GroupService {
   async requestGroups(): Promise<void> {
     try {
       const groupResponse = await this.getGroups();
-      this.groups = signal(new Map(groupResponse.map((group) => ([group.id, group]))));
+      this.groups.set(new Map(groupResponse.map((group):[number, Group] => ([group.id, group]))));
     } catch(err) {
 
     }

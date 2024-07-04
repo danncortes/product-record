@@ -1,1 +1,12 @@
-<p>stats-card works!</p>
+<mat-card class="example-card" appearance="raised">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{ title }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <app-stats-card-content
+        [productsId]="productsId"
+        [displayType]="displayType"
+     />
+  </mat-card-content>
+</mat-card>

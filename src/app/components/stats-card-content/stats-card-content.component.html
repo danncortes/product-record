@@ -1,0 +1,5 @@
+<div class="stat-card-content">
+    @for (id of productsId; track $index) {
+        <app-product-record [productId]="id" [displayType]="displayType" />
+    }
+</div>

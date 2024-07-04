@@ -1,9 +1,8 @@
 .stats-grid {
-    background-color: #eee;
+    background-color: #f2f2f2;
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 200px;
     gap: 1rem;
 }
 html, body { height: 100%; }

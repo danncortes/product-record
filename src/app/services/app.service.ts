@@ -5,7 +5,7 @@ export type GroupConfig = {
     group_id: number
     products: number[],
     grid: number,
-    style: "chart" | "cards" | "rows"
+    displayType: "chart" | "cards" | "rows"
 }
 
 export type Config = {
@@ -19,9 +19,9 @@ export type Config = {
   providedIn: 'root'
 })
 export class AppService {
-  defaultConfig: null | Signal<Config> = null;
+  defaultConfig: WritableSignal<Config | null> = signal(null);
   userConfig: WritableSignal<Config | null> = signal(null);
-  config: Signal<Config | null> = computed(() => this.userConfig() || this.defaultConfig && this.defaultConfig()) 
+  config: Signal<Config | null> = computed(() => this.userConfig() || this.defaultConfig()) 
 
   constructor(private http: HttpClient) {
 
@@ -34,7 +34,7 @@ export class AppService {
   async requestConfig() {
     try {
       const configResponse = await this.getConfig();
-      this.defaultConfig = signal(configResponse);
+      this.defaultConfig.set(configResponse);
     } catch(err) {
 
     }
