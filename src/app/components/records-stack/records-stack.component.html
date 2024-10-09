@@ -1,1 +1,7 @@
-<p>records-stack works!</p>
+<div class="records-stack">
+    @if(records && product) {
+        @for(record of records; track $index) {
+            <app-record-card [record]="record"  [product]="product"/>
+        }
+    }
+</div>

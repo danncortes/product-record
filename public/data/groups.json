@@ -16,5 +16,6 @@
     { "id": 15, "name": "GROUP_FLOUR" },
     { "id": 16, "name": "GROUP_COFFEE" },
     { "id": 17, "name": "GROUP_TEA" },
-    { "id": 18, "name": "GROUP_HONEY" }
+    { "id": 18, "name": "GROUP_HONEY" },
+    { "id": 18, "name": "GROUP_PEAR" }
 ]

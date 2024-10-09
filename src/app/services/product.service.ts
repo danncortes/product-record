@@ -8,7 +8,7 @@ export type Product = {
   description: string,
   measure: string,
   pkg: boolean,
-  brand: string,
+  brand_id: number,
   code: string
 }
 

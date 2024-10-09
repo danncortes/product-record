@@ -4,7 +4,12 @@
             <p>{{product()!.name}}</p>
         }
     </div>
-    <p>{{productId}}</p>
-    <p>{{displayType}}</p>
+
+    @if(displayType === 'cards' || displayType === 'rows') {
+        <app-records-stack [records]="records()" [product]="product()"/>
+    } @else {
+        <p>{{productId}}</p>
+        <p>{{displayType}}</p>
+    }
 </div>
 

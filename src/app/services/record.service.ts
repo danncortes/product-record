@@ -5,11 +5,17 @@ export type ProductRecord = {
   id: number;
   product_id: number;
   price: number;
-  unitPrice: number;
-  priceDiff: number;
-  percentChange: number;
+  unit_price: number;
+  price_diff: number; 
+  percent_change: number;
+  /** priceDiff and percentChange refers to difference between the price and the price of the previous one in the received array of records
+   * Not necessarily based on a date
+   **/
   date: string;
-  store: number;
+  store_id: number;
+  currency_code: string;
+  discount_type: 'percentace' | 'fixed' | null;
+  discount: number;
 }
 
 @Injectable({

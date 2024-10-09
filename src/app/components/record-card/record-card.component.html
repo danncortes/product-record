@@ -1,9 +1,9 @@
 <div class="record-card">
-    <p class="record-card__date">{{record?.date}}</p>
-    <p class="record-card__value">{{record?.value}}</p>
-    <p class="record-card__unit-value">{{record?.unitValue}}</p>
+    <p class="record-card__date">{{record.date | date:'mediumDate'}}</p>
+    <p class="record-card__price" appCurrencyFormat>{{record.price | currency: 'CHF'}}</p>
+    <p class="record-card__unit-price">{{record.unit_price}}/{{product.measure}}</p>
     <div>
-        <p class="record-card__diff">{{record?.valueDiff}}</p>
-        <p class="record-card__percentage-change">{{record?.percentageChange}}</p>
+        <div class="record-card__arrow record-card__arrow--down"></div>
+        <p class="record-card__diff">{{record.price_diff}} | {{record.percent_change}}%</p>
     </div>
 </div>

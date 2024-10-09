@@ -2,11 +2,12 @@ import { Component, Input, WritableSignal, signal } from '@angular/core';
 import { GroupConfig } from '../../services/app.service';
 import { ProductRecord, RecordService } from '../../services/record.service';
 import { Product, ProductService } from '../../services/product.service';
+import { RecordsStackComponent } from '../records-stack/records-stack.component';
 
 @Component({
   selector: 'app-product-record',
   standalone: true,
-  imports: [],
+  imports: [RecordsStackComponent],
   templateUrl: './product-record.component.html',
   styleUrl: './product-record.component.scss',
 })
@@ -21,7 +22,7 @@ export class ProductRecordComponent {
   ngOnInit() {
     if (this.productId) {
       this.requestRecords();
-      this.requestProduct()
+      this.requestProduct();
     }
   }
 
